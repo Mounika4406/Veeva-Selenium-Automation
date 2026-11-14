@@ -1,4 +1,4 @@
-package com.veeva.corejava.oops;
+package com.veeva.corejava.oops.encapsulation;
 class BankAccount {
 
     // Private variable: cannot be accessed directly outside this class
