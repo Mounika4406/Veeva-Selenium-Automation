@@ -1,64 +1,150 @@
-# Selenium Practice
-# Session 1 – Selenium WebDriver Basics
+# Selenium Automation Practice with Java
 
-## Overview
-This session covers the basics of Selenium WebDriver using Java. It demonstrates how to launch a browser, navigate between websites, retrieve page titles, and close the browser.
+This repository contains my Selenium WebDriver practice sessions using Java. I created this repository to maintain the programs I practise during my learning journey and to track my progress in automation testing.
 
-## Concepts Covered
+Each session covers different Selenium concepts with practical examples. I will continue updating this repository as I learn new topics.
+
+## Technologies Used
+
+- Java
+- Selenium WebDriver
+- Maven
+- Chrome Browser
+- Microsoft Edge
+- Mozilla Firefox
+- IntelliJ IDEA
+- WebDriverManager
+
+---
+
+## Session 1 – Selenium WebDriver Basics
+
+### Overview
+
+In this session, I learned the basics of Selenium WebDriver and how to control a browser using Java.
+
+### Concepts Covered
+
 - Creating a WebDriver instance
 - Launching Google Chrome using ChromeDriver
-- Opening a website using `driver.get()`
+- Opening websites using `driver.get()`
 - Navigating between websites using `driver.navigate().to()`
 - Retrieving webpage titles using `driver.getTitle()`
 - Closing the browser using `driver.quit()`
 
-## Technologies Used
-- Java
-- Selenium WebDriver
-- Chrome Browser
-- IntelliJ IDEA
-- Maven
+### Websites Practised
 
-## Execution
-Run the `Main.java` file to execute the Selenium automation program.
-
-## Websites Tested
 - https://www.google.com
 - https://www.wikipedia.org
 
-## Learning Outcome
-Learned how to launch and control a browser using Selenium WebDriver and perform basic browser navigation operations.
+### Learning Outcome
 
-# Session 2 – Selenium Locators
+Learned how to launch a browser, open websites, navigate between pages, retrieve webpage titles, and close the browser using Selenium WebDriver.
 
-## Overview
-This session focuses on Selenium WebElement locators and browser automation using Java. It demonstrates how to identify and interact with web elements on a webpage.
+---
 
-## Concepts Covered
-- WebDriverManager setup for ChromeDriver
-- Selenium WebDriver initialization
-- Identifying web elements using locators
-- Using the `By` class
-- Working with JavaScriptExecutor
-- Performing browser automation interactions
-- Handling Thread.sleep() for execution delays
+## Session 2 – Selenium Locators
 
-## Technologies Used
-- Java
-- Selenium WebDriver
-- WebDriverManager
-- Chrome Browser
-- IntelliJ IDEA
-- Maven
+### Overview
 
-## Execution
-Run the `Main.java` file to execute the Selenium locator automation program.
+In this session, I practised identifying web elements on a webpage and performing basic browser interactions using Selenium.
 
-## Learning Outcome
-Learned how to use Selenium locators to identify webpage elements and automate browser interactions.
+### Concepts Covered
 
-## Project Structure
-```text
-Session2/
-└── Main.java
-```
+- Setting up ChromeDriver using WebDriverManager
+- Initializing Selenium WebDriver
+- Using the `By` class to locate web elements
+- Working with Selenium locators
+- Using JavaScriptExecutor
+- Using `Thread.sleep()` to add execution delays
+- Performing browser interactions
+
+### Learning Outcome
+
+Understood how Selenium identifies webpage elements using locators and how to perform basic interactions with those elements.
+
+---
+
+## Session 3 – Cross Browser Automation
+
+### Overview
+
+In this session, I learned how to launch and automate different browsers using Selenium WebDriver. I practised opening the same website in Chrome, Edge, and Firefox.
+
+### Concepts Covered
+
+- Working with ChromeDriver
+- Working with EdgeDriver
+- Working with FirefoxDriver
+- Launching multiple browsers
+- Using static WebDriver variables
+- Creating and using methods in Java
+- Using `ArrayList` to store multiple WebDriver instances
+- Using `List<WebDriver>` to manage browser instances
+- Maximizing browser windows using `manage().window().maximize()`
+- Using `Thread.sleep()` to add delays
+- Closing all opened browsers using a `for-each` loop and `quit()`
+- Clearing the browser list using `clear()`
+
+### Website Practised
+
+- https://maya.adityauniversity.in/
+
+### Learning Outcome
+
+Learned how to perform cross-browser automation by launching Chrome, Edge, and Firefox, managing multiple browser instances, and closing all browsers after execution.
+
+---
+
+## Session 4 – CSS Selectors
+
+### Overview
+
+In this session, I learned how to identify webpage elements using CSS Selectors in Selenium WebDriver.
+
+### Concepts Covered
+
+- Introduction to CSS Selectors
+- CSS Selector using ID (`#`)
+- CSS Selector using Class (`.`)
+- CSS Selector using Tag Name
+- Using `By.cssSelector()`
+- Finding and interacting with web elements
+- Entering values into input fields using `sendKeys()`
+
+### Website Practised
+
+- https://www.saucedemo.com/
+
+### Learning Outcome
+
+Learned how to locate webpage elements using different CSS Selector techniques and interact with input fields using Selenium.
+
+---
+
+## Session 5 – CSS Attribute Selectors
+
+### Overview
+
+In this session, I learned how to locate web elements using CSS Attribute Selectors. I practised identifying elements based on their HTML attributes and attribute values.
+
+### Concepts Covered
+
+- Introduction to CSS Attribute Selectors
+- Selecting elements using exact attribute values (`=`)
+- Selecting elements using starts with (`^=`)
+- Selecting elements using ends with (`$=`)
+- Selecting elements using contains (`*=`)
+- Using attribute selectors with `By.cssSelector()`
+
+### Learning Outcome
+
+Understood how to locate webpage elements based on their attributes and values using different CSS Attribute Selector techniques.
+
+---
+
+## My Learning Journey
+
+Through these practice sessions, I am building my knowledge of Java and Selenium WebDriver step by step. I am focusing on understanding the concepts and implementing them through hands-on practice.
+
+I will keep updating this repository with my upcoming Selenium sessions, programs, and learning progress.
