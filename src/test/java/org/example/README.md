@@ -148,3 +148,33 @@ Understood how to locate webpage elements based on their attributes and values u
 Through these practice sessions, I am building my knowledge of Java and Selenium WebDriver step by step. I am focusing on understanding the concepts and implementing them through hands-on practice.
 
 I will keep updating this repository with my upcoming Selenium sessions, programs, and learning progress.
+
+---
+
+## Session 6 – XPath Locators
+
+### Overview
+
+In this session, I learned how to identify webpage elements using XPath in Selenium WebDriver. I practised different XPath expressions to locate input fields and buttons on a webpage.
+
+### Concepts Covered
+
+- Introduction to XPath
+- Absolute XPath
+- Relative XPath
+- XPath using ID
+- XPath using Name
+- XPath using Class
+- XPath using Text
+- XPath using `contains()`
+- XPath using `starts-with()`
+- Using `By.xpath()` to locate web elements
+- Performing browser interactions using XPath
+
+### Website Practised
+
+- https://www.saucedemo.com/
+
+### Learning Outcome
+
+Learned how to identify and interact with webpage elements using different XPath expressions. Also understood the difference between absolute and relative XPath and how to use attributes and text to locate elements.
