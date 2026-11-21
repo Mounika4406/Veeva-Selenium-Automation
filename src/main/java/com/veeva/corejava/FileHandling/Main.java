@@ -11,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
         try {
+
             // 1. Create a file
             File file = new File("student.txt");
 
@@ -21,32 +22,41 @@ public class Main {
             }
 
             // 2. Write data into file
-            FileWriter writer = new FileWriter(file);
-            writer.write("Name: Mounika\n");
-            writer.write("Course: Java\n");
-            writer.write("Topic: File Handling\n");
-            writer.close();
+            try (FileWriter writer = new FileWriter(file)) {
+
+                writer.write("Name: Mounika\n");
+                writer.write("Course: Java\n");
+                writer.write("Topic: File Handling\n");
+
+            }
 
             System.out.println("Data written successfully");
 
             // 3. Read data from file
-            FileReader reader = new FileReader(file);
-
-            int character;
-
             System.out.println("\nFile Content:");
 
-            while ((character = reader.read()) != -1) {
-                System.out.print((char) character);
+            try (FileReader reader = new FileReader(file)) {
+
+                int character;
+
+                while ((character = reader.read()) != -1) {
+                    System.out.print((char) character);
+                }
+
             }
 
-            reader.close();
+            // 4. Display file information
+            System.out.println("\n\nFile Name: " + file.getName());
+            System.out.println("File Size: " + file.length() + " bytes");
+            System.out.println("File Exists: " + file.exists());
 
-            // 4. Delete a file (optional)
+            // 5. Delete file (optional)
             // file.delete();
 
         } catch (IOException e) {
+
             System.out.println("An error occurred: " + e.getMessage());
+
         }
     }
 }
