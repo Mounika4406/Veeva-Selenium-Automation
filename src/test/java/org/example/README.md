@@ -178,3 +178,19 @@ In this session, I learned how to identify webpage elements using XPath in Selen
 ### Learning Outcome
 
 Learned how to identify and interact with webpage elements using different XPath expressions. Also understood the difference between absolute and relative XPath and how to use attributes and text to locate elements.
+
+### Session 7 – WebElement Methods
+
+In this session, I practised some useful WebElement methods in Selenium WebDriver to get information about webpage elements.
+
+**Topics Covered:**
+- `getAttribute()` – To get the value of an element's attribute.
+- `getText()` – To get the visible text of an element.
+- `getTagName()` – To get the HTML tag name of an element.
+- Using the `WebElement` interface
+- Finding elements using `By.id()` and `By.className()`
+- Printing element details using `System.out.println()`
+
+**Website Used:** https://www.saucedemo.com/
+
+**Learning Outcome:** Learned how to retrieve and verify element attributes, visible text and HTML tag names using Selenium WebDriver.
