@@ -194,3 +194,43 @@ In this session, I practised some useful WebElement methods in Selenium WebDrive
 **Website Used:** https://www.saucedemo.com/
 
 **Learning Outcome:** Learned how to retrieve and verify element attributes, visible text and HTML tag names using Selenium WebDriver.
+
+### Session 8 – Dropdown Handling and Screenshots
+
+In this session, I practised handling dropdown menus and capturing screenshots using Selenium WebDriver.
+
+**Topics Covered:**
+- `Select` class for handling dropdowns
+- `selectByVisibleText()` method
+- Locating dropdown elements using `By.id()`
+- `TakesScreenshot` interface
+- `getScreenshotAs()` method
+- `OutputType.FILE`
+- Saving screenshots using `FileUtils.copyFile()`
+- Handling `IOException`
+
+**Website Used:** https://the-internet.herokuapp.com/dropdown
+
+**Learning Outcome:** Learned how to select options from dropdown menus and capture and save screenshots of web pages using Selenium.
+
+---
+
+### Session 9 – Waits in Selenium WebDriver
+
+In this session, I practised different types of waits in Selenium WebDriver to handle synchronization between browser actions and webpage loading.
+
+**Topics Covered:**
+- Implicit Wait using `implicitlyWait()`
+- Explicit Wait using `WebDriverWait`
+- `ExpectedConditions.elementToBeClickable()`
+- Fluent Wait using `FluentWait`
+- `pollingEvery()` method
+- `ignoring()` method
+- Handling dynamic web elements
+- Waiting for elements before performing actions
+
+**Website Used:** https://the-internet.herokuapp.com/login
+
+**Learning Outcome:** Learned the differences between implicit, explicit and fluent waits and how to use them to handle elements that may take time to become available on a webpage.
+
+---
