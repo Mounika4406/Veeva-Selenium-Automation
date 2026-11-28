@@ -234,3 +234,29 @@ In this session, I practised different types of waits in Selenium WebDriver to h
 **Learning Outcome:** Learned the differences between implicit, explicit and fluent waits and how to use them to handle elements that may take time to become available on a webpage.
 
 ---
+
+## Session 10 – Frames, Alerts and Windows
+
+### Topics Covered
+
+**1. Frames**
+- Learned how to handle frames and nested frames.
+- Practiced switching between frames using ID, name and WebElement.
+- Used `parentFrame()` and `defaultContent()` to navigate between frame levels.
+- Retrieved text from nested frames.
+
+**2. Alerts**
+- Learned the three types of JavaScript alerts: Simple, Confirmation and Prompt.
+- Used `switchTo().alert()` to handle alerts.
+- Practiced `getText()`, `accept()`, `dismiss()` and `sendKeys()`.
+- Used Explicit Wait with `alertIsPresent()`.
+
+**3. Windows**
+- Learned how to handle multiple browser windows and tabs.
+- Used `getWindowHandle()` and `getWindowHandles()`.
+- Practiced switching between parent and child windows.
+- Used `close()` and `quit()` to close browser windows.
+
+### Practical Implementation
+- Combined Frames, Alerts and Windows handling in one Selenium Java program.
+- Practiced browser context switching and element interaction using Selenium WebDriver.
